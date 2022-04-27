@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>html formatting</title>
+<body>
+<p>this is a paragraph</P>
+<p><b>this is a bold paragraph</b></p>
+<!-- i am writing the comment -->
+<p><i>this is a Italic text paragraph</i></p>
+<p><em>this is a Emphasized text paragraph</em></p>
+<!--
+<p>this is a multi line comments</p>
+<p>i a writing the 2nd line comment</p>
+-->
+<p>this is a <mark>marked</mark> text paragraph</p>
+<p><small>this is a <!--this is a inline comment-->smaller text paragraph</small></p>
+<p>this is a <del>deleted</del> text paragraph</p>
+<p>this is a <ins>inserted</ins> text paragraph</p>
+<p>this is a <sub>subscript</sub> text used in chemistry</p>
+<p>this is a <sup>superscript</sup> text used in maths</p>
+</body>
+</head>
+</html>
