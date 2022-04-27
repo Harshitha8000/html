@@ -1,0 +1,10 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>html colours</title>
+</head>
+<body>
+<h2 style="background-color:Violet;">this heading has voilet color</h2>
+<h2 style="background-color:slateblue;">this heading has slateblue color</h2>
+</body>
+</html>
