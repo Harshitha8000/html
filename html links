@@ -1,0 +1,10 @@
+<!DOCTTYPE>
+<html>
+<head>
+<title>html links</title>
+</head>
+<body>
+<a href="https://www.youtube.com">youtube</a>
+<p>this link is to go to youtube</p>
+</body>
+</html>
