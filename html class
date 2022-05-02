@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>html class</title>
+<style>
+.city{
+background-color:violet;
+color:purple;
+border:2px solid purple;
+margin:20px;
+padding:20px;
+}
+
+</style>
+</head>
+<body>
+<div class='city'>
+<h2>dog</h2>
+<p>it barks</p>
+</div>
+<div class='city'>
+<h2>cat</h2>
+<p>it meows</p>
+</div>
+<div class='city'>
+<h2>snake</h2>
+<p>it hiss</p>
+</div>
+</body>
+</html>
