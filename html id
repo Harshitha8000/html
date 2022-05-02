@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>html id</title>
+<style>
+.city{
+background-color:violet;
+color:purple;
+border:2px solid purple;
+margin:20px;
+padding:20px;
+}
+#myPets {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+
+<h2>Difference Between Class and ID</h2>
+<p>A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:</p>
+<h1 id="myPets">My pets</h1>
+
+<h2 class='city'>dog</h2>
+<p>it barks</p>
+
+<h2 class='city'>cat</h2>
+<p>it meows</p>
+
+<h2 class='city'>snake</h2>
+<p>it hiss</p>
+
+</body>
+</html>
