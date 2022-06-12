@@ -190,6 +190,149 @@ p-3
 
 p-4
 ==================================================================================
+
+Main page:
+<html>
+<head>
+<title>home page</title>
+</head>
+<body>
+<center><b><h1>welcome to amazon.com</h1></b><br><br>
+<form method="post"action="login.htm">
+<input type="submit"value="click">registration user login hear
+</center>
+</body>
+</html>
+
+Login page:
+<html>
+<head>
+<title>login page</title>
+</head>
+<body>
+<center>
+<form method="post" action="login.html">
+<p><strong>name:</strong>
+<input type="text" name="username" size="25">
+</p>
+<p><strong>password</strong>
+<input name="pass" type="password" size="6"></p>
+<p><strong>male</strong>
+<input type="radio" value="male"<hacked>&nbsp&nbsp</p>
+<p><strong>female</strong>
+<option><input type="radio" value="female"<hacked>&nbsp;</p>
+<input type="submit" value="submit">&nbsp&nbps
+<input type="reset" value="reset">
+<a href="registration.html">new users register hear </a>
+</form>
+</center>
+</body>
+</html>
+
+Registration:
+<html>
+<head>
+<title>registration</title>
+</head>
+<body>
+<center>
+<form method="post" action="login.html">
+<p><strong>name:</strong>
+<input type="text" name="username" size="25">
+</p>
+<p><strong>password</strong>
+<input name="pass" type="password" size="6"></p>
+<p><strong>male</strong>
+<input type="radio" value="male"<hacked>&nbsp&nbsp</p>
+<p><strong>female</strong>
+<input type="radio" value="female" </p>
+<p><strong>address:</strong>
+<textarea name="address" row="6" cols="20">
+</textarea>
+</p>
+<p><strong>mobile no:</strong>
+<input type="text" name="phno" size="10">
+</p><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+</center>
+</body>
+</html>
+
+Books Catalog:
+<html>
+<head>
+<title>books catalog</title>
+</head>
+<body>
+<center><h1><p>welcome to books catalog</p></h1>
+<table border="1"width="25%"height="50%">
+<tr>
+<th>computers</th>
+<th>electronics</th>
+<th>biotech</th>
+<th>mechanical</th>
+</tr>
+<tr>
+<td>
+</body>
+</html>
+
+Order.html:
+<html>
+<body bgcolor="pink"><br><br><br>
+<div align="center"><pre>
+LOGIN ID           :<input type="text" name="id"><br>
+TITLE                 :<input type="text" name="title"><br>
+NO.OF BOOKS  :<input type="text" name="no"><br>
+COST OF BOOK:<input type="text"name="cost"><br>
+DATE                 :<input tpe="text" name="date"><br></pre><br><br>
+</div>
+<br><br>
+<div align="center">
+<input type="submit" value="ok" name="button1"> &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear" name="button2">
+</body>
+</html>
+
+Profile.html:
+<html>
+<body bgcolor="pink"><br><br><br>
+<script language="javascript">
+function validate()
+{
+var flag=1;
+if(document.myform.id.value==""||
+document.myform.pwd.value=="")
+{
+flag=0;
+}
+if(flag==1)
+{
+alert("VALID INPUT");
+}
+else
+{
+alert("INVALID INPUT");
+document.myform.focus();
+}
+}
+</script>
+<form name="myform">
+<div align="center"><pre>
+LOGIN ID     :<input type="text" name="id"><br>
+PASSWORD:<input type="password" name="pwd"></pre><br><br>
+</div>
+<br><br>
+<div align="center">
+<input type="submit" value="ok" onClick="validate()">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear" >
+</form>
+</body>
+</html>
+
+
 ==================================================================================
 
 p-5
