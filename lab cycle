@@ -483,7 +483,7 @@ p-5
                 Capital = "Washington DC";
             }
             if (country == "Canada") {
-                Capital = "Torento";
+                Capital = "Ottawa";
             }
             document.getElementById("Capital").innerHTML = Capital;
         }
