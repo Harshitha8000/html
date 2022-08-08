@@ -1,0 +1,196 @@
+file:lab_101a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Page</title>
+    </head>
+    <body style="background-color:green;">
+        
+    </body>
+</html>
+=========================
+file:lab_101b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Page</title>
+    </head>
+    <body style="background-color:pink;">
+        <marquee direction="right" style="color:red;">
+        This is a moving message
+        </marquee>
+    </body>
+</html>
+=========================
+file:lab_101c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <h2>paragraph</h2>
+        <p>
+            This paragraph contains a lot of lines in the source code, but the browser ignores it.
+        </p>
+        <p>
+            The number of lines in a paragraph depends on the size of the browser window.
+             If you resize the browser window, the number of lines in this paragraph will change.
+        </p>
+    </body>
+</html>
+=========================
+file:lab_102a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <h1>WELCOME</h1>
+        <h2>WELCOME</h2>
+        <h3>WELCOME</h3>
+        <h4>WELCOME</h4>
+        <h5>WELCOME</h5>
+        <h6>WELCOME</h6>
+    </body>
+</html>
+=========================
+file:lab_102b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <p><b>WELCOME</b></p>
+    </body>
+</html>
+=========================
+file:lab_102c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <p>h<sub>2</sub>o <br> x<sup>2</sup>+y<sup>2</sup></p>
+    </body>
+</html>
+=========================
+file:lab_103a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <font size = "1">Font size = "1"</font><br>
+        <font size = "2">Font size = "2"</font><br>
+        <font size = "3">Font size = "3"</font><br>
+        <font size = "4">Font size = "4"</font><br>
+
+        <font face = "Times New Roman" size = "5">Times New Roman</font><br>
+        <font face = "Verdana" size = "5">Verdana</font><br>
+        <font face = "Comic sans MS" size =" 5">Comic Sans MS</font><br>
+        <font face = "WildWest" size = "5">WildWest</font><br>
+        <font face = "Bedrock" size = "5">Bedrock</font><br>
+
+        <font color = "#0000ff">This text is in blue</font><br>
+        <font color = "green">This text is green</font>
+
+    </body>
+</html>
+=========================
+file:lab_103b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body> 
+        <p><i>Paragraph using italic tag</i></p>
+        <p><b>Paragraph using bold tag</b></p>
+        <p><u>Paragraph using underline tag</u></p>
+    </body>
+</html>
+=========================
+file:lab_103c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body style="background-color:yellow;">
+        <p style="color:red;">This paragraph contains a lot of lines in the source code,
+             but the browser ignores it.</p> 
+    </body>
+</html>
+=========================
+file:lab_104a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+        <style>
+            a:visited
+            {
+            color:#FF0000
+            }
+            </style>
+    </head>
+    <body >
+        <p>the link is to w3schools with pnik color</p>
+        <a href="https://www.w3schools.com/">click here</a>
+    </body>
+</html>
+=========================
+file:lab_104b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <a href="https://www.wikipedia.org/">―Wi-Fi</a><br>
+        <a href="https://www.wikipedia.org/">―LAN</a>
+    </body>
+</html>
+=========================
+file:lab_104c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <p style="float:left;">We create simplified and interactive<br> learning experiences.<br>
+            Learning web development should be easy to understand <br>and available for everyone, everywhere!<br>
+            W3Schools was created in 1998, and derives its name <br>from the World Wide Web (WWW) but is not <br>affiliated with the W3C.
+            <br>W3Schools has focus on simplicity.<br>
+
+            W3Schools practice easy learning.<br>
+
+            W3Schools uses simple code examples and<br> simple illustrations of how to use it.<br>
+
+            W3Schools' tutorials start from basic level and <br>move all the way up to professional references.<br>
+        </p>
+        <a href="https://www.w3schools.com/">
+            <img src="https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj" 
+            alt="img of w3schools" width="250" height="250" style="float:right;">
+        </a>
+    </body>
+</html>
+=========================
