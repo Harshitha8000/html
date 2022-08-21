@@ -193,4 +193,394 @@ file:lab_104c.html
         </a>
     </body>
 </html>
+
 =========================
+file:lab_105a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <p> ordered list</p>
+        <ol>
+            <li>poojitha</li>
+            <li>sneha</li>
+            <li>bhavya</li>
+            <li>prathima</li>
+            <li>anusha</li>
+        </ol>
+    </body>
+</html>
+
+=========================
+file:lab_105b.html
+-------------------------
+
+
+=========================
+file:lab_105c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <p>unordered list</p>
+        <ul>
+            <li>poojitha</li>
+            <li>sneha</li>
+            <li>bhavya</li>
+            <li>prathima</li>
+            <li>anusha</li>
+        </ul>
+    </body>
+</html>
+
+=========================
+file:lab_106a.html
+-------------------------
+<!DOCTYPE html>
+<head>
+    <title>Time table</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h2> Time table</h2>
+    <table>
+        <tr>
+            <th>DAY</th>
+            <th>8:00-9:00</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr>
+            <th>MON</th>
+            <td colspan="3">WT LAB(C-III)</td>
+            <td rowspan="6">LUNCH</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+            <td>SE</td>
+            <td>E&HV</td>
+            <td>CS</td>
+            <td colspan="3">DBMS LAB(C-III)</td>
+        </tr>
+        <tr>
+            <th>WED</th>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>WT</td>
+            <td>SE</td>
+            <td>CS</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr>
+            <th>THU</th>
+            <td>SE</td>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>SOC</td>
+            <td>CS</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <th>FRI</th>
+            <td colspan="3">CS LAB(C-III)</td>
+            <td>CS</td>
+            <td>DBMS</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <th>SAT</th>
+            <td colspan="2">SOC LAB</td>
+            <td>WT</td>
+            <td>E&HV</td>
+            <td colspan="2">COMPETITVE CODING(E-LE)</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+=========================
+file:lab_106b.html
+-------------------------
+
+
+=========================
+file:lab_106c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td rowspan="2">Name of train</td>
+                <td rowspan="2">place</td>
+                <td rowspan="2">Destination</td>
+                <td rowspan="2">Train No</td>
+                <td colspan="2">Time</td>
+                <td rowspan="2">Fair</td>
+            </tr>
+            <tr>
+                <td>Arrival</td>
+                <td>Departure</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+=========================
+file:lab_107a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <frameset rows = "50%,50%">
+        <frame name = "top" />
+        <frame name = "bottom" />
+     </frameset>
+</html>
+
+=========================
+file:lab_107b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <frameset rows = "50%,50%">
+        <frame name = "top" />
+        <frameset name = "botton" cols="50%,50%">
+            <frame name = "left"/>
+            <frame name = "right"/>
+        </frameset>
+     </frameset>
+</html>
+
+=========================
+file:lab_107c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <frameset rows = "50%,50%">
+        <frame name = "top" style = "background-color: lightblue;"/>
+        <frameset name = "bottom" cols="50%,50%">
+            <frame name = "left" style = "background-color: greenyellow;"/>
+            <frame name = "right" style = "background-color: red;"/>
+        </frameset>
+     </frameset>
+</html>
+
+=========================
+file:lab_108a.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+            <p> Enter Language:</p>
+            <input type="checkbox" id="telugu" name="telugu" >
+            <label for="telugu"> Telugu</label><br>
+            <input type="checkbox" id="hindi" name="hindi" >
+            <label for="hindi"> Hindi</label><br>
+            <input type="checkbox" id="english" name="english" >
+            <label for="english"> English</label><br>
+            
+            <p> Age :</p>
+            <input type="radio" id=" minor" name="ageGroup" value=" minor">
+            <label for=" minor">  0-18 </label><br>
+            <input type="radio" id=" major" name="ageGroup" value=" major">
+            <label for=" major"> 18-60</label><br>
+            <input type="radio" id=" old" name="ageGroup" value=" old">
+            <label for=" old"> 18 above</label><br>
+
+            <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            
+            <br><br><input type="submit" value="Submit">
+            <input type="reset"><br>
+          </form>
+    </body>
+</html>
+
+=========================
+file:lab_108b.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <form>
+        <p> Select a color :</p>
+        <input type="radio" onclick="myFunction('blue')" id="blue" name="colors" value=" blue">
+        <label for=" blue"> blue </label><br>
+        <input type="radio" onclick="myFunction('green')" id="green" name="colors" value=" green">
+        <label for=" green"> green</label><br>
+        <input type="radio" onclick="myFunction('red')" id="red" name="colors" value=" red">
+        <label for=" red"> red</label><br>
+        <input type="radio" onclick="myFunction('yellow')" id="yellow" name="colors" value=" yellow">
+        <label for=" yellow"> yellow</label><br>
+        <input type="radio" onclick="myFunction('pink')" id="pink" name="colors" value=" pink">
+        <label for=" pink"> pink</label><br>
+    </form>
+    <script>
+        function myFunction(col) {
+            document.getElementsByTagName("BODY")[0].style.backgroundColor = col;
+        }
+    </script>
+</html>
+
+=========================
+file:lab_108c.html
+-------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br>
+
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+    </body>
+</html>
+
+=========================
+file:lab_109.html
+-------------------------
+
+<!DOCTYPE html>
+<head>
+    <title>Time table</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h2> Time table</h2>
+    <table>
+        <tr style="color:white; background-color:blue;">
+            <th>DAY</th>
+            <th>8:00-9:00</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr>
+            <th><b>Mon</b></th>
+            <td colspan="3">WT LAB(C-III)</td>
+            <td rowspan="6" style="font-size:23px">LUNCH</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th><b>Tue</b></th>
+            <td>SE</td>
+            <td>E&HV</td>
+            <td>CS</td>
+            <td colspan="3">DBMS LAB(C-III)</td>
+        </tr>
+        <tr>
+            <th><b>Wed</b></th>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>WT</td>
+            <td>SE</td>
+            <td>CS</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr>
+            <th><b>Thu</b></th>
+            <td>SE</td>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>SOC</td>
+            <td>CS</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <th><b>Fri</b></th>
+            <td colspan="3">CS LAB(C-III)</td>
+            <td>CS</td>
+            <td>DBMS</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <th><b>Sat</b></th>
+            <td colspan="2">SOC LAB</td>
+            <td>WT</td>
+            <td>E&HV</td>
+            <td colspan="2">COMPETITVE CODING(E-LE)</td>
+        </tr>
+    </table>
+</body>
+</html>
